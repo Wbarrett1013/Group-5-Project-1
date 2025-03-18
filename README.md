@@ -65,19 +65,19 @@ Query 3 This allows us to see how profitable each sport is as well as how popula
 
 Query 4 allows us to see how many players are on each team by the actual team name. We order the team names alphabetically to make the results more readable.
 
-5. Query 5 lists the guests’ names and the hotel they are checking into if their reservation is during the PM, their room is a single or suite, their check in dates are between 2023-04-01 and 2023-04-10, and their hotel rating is above a 4.
+5. Query 5 lists out the facilities that UGA owns that have a minimum of 5,000 seats.
 
 <img width="1093" alt="Screenshot 2025-03-17 at 9 26 27 PM" src="https://github.com/user-attachments/assets/60e82a8e-a0ef-4a0f-8b26-08c2c0728e34" />
 
 
-Query 5 allows the resort to manage how busy their check in will be during the PM hours of early April in their better hotels where the check in rooms are singles or suites. This can help the resort determine how many employees need to be working the check in desks to check in single or suite reservations in the afternoon of these dates in these specific hotels.
+Query 5 allows for the University of Georgia Athletics to filter out some of the smaller athletic venues from the data.  UGA Athletics can use this information to make decisions based on the facilities that are used the most in order to try and boost the overall spectator experience to maximize the value that UGA Athletics produces.
 
-6. Query 6 lists the names of guests who have over 10 activity reservations and the activities that they have those reservations in.
+6. Query 6 List out the teams with donors that are greater than the average donor amount per team. 
 
 <img width="1097" alt="Screenshot 2025-03-17 at 9 26 45 PM" src="https://github.com/user-attachments/assets/45948bfb-dcc8-40d3-8032-188243b22890" />
 
 
-Query 6 allows the resort to determine what guests are contributing the most to each activity’s revenue. The resort may use this information to reward guests who spend the most on activities by offering special prizes and promotions, creating guest loyalty and creating an incentive to reserve even more.
+Query 6 allows for UGA Athletics to see the sports and teams that are receiving an above average amount of donations to said sport / team.  UGA can use this information to make decisions on where to invest money into each sport and team based on how much a team is receiving and either further invest or decide to invest into another sport to insure that each sport is being treated fairly. 
 
 7. Query 7 lists the the amount of dining reservations per guest and the average amount of guests these reservations have.
    
