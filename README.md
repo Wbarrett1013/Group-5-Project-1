@@ -6,7 +6,7 @@
 2. Miranda Gonzalez [@mag93887](https://www.github.com/mag93887)
 3. Matthew Wilbanks [@Mwilbanks22](https://www.github.com/Mwilbanks22)
 4. Will Barrett[@Wbarrett1013](https://www.github.com/Wbarrett1013)
-5. Terri Morrison [@sterrimorrison28](https://www.github.com/terrimorrison28)
+5. Terri Morrison [@terrimorrison28](https://www.github.com/terrimorrison28)
 
 ## Problem Description:
 The problem we chose to address involves designing and constructing a relational database that models various aspects of sports at the University of Georgia. The central entity in our database is the Sports entity, which serves as the foundation for capturing data related to different sports at UGA. From this, we expand to include relevant details such as teams, players, coaches, games, and athlete performance. Our objective is to create a structured and efficient way to store and retrieve data, allowing for easy analysis and insights into multiple aspects of UGA athletics. Additionally, we aim to generate sample data, populate our database with realistic entries, and execute meaningful queries to extract valuable information regarding sports operations and trends at UGA.
@@ -14,22 +14,14 @@ The problem we chose to address involves designing and constructing a relational
 
 Explanation of data model: 
 
-Our model is based on the structure of a hypothetical vacation resort. 
-The department entity is representative of a department (Finance, Human Resources, Food & Beverage, etc.) inside a resort location. Inside of this department, there are many employees, and this is represented by the one to many relationship we have placed between the Department and Employees entities. 
+This data model is based on the structure of UGA’s sports teams. The sports entity is representative of the UGA athletic aspects within each sport. Within each sport, there are teams that classify as a one-to-many non-identifying relationship. Each team has a donor, making this a one-to-many non-identifying relationship. Every sports team has coaches to guide and train the team to play to the best of their ability. This relationship is one-to-many and non-identifying. The entity coaches is a one-to-one non-identifying relationship itself. 
 
-There are also many employees inside of the hotel portion of the resort, which is why we established a one to many relationship between the Hotel and Employees tables as well. 
+Each team includes many players who can play for one or multiple teams. That identifies as a one-to-many non-identifying relationship. Sports need players to be eligible for competition and games to play. This creates a one-to-many non-identifying relationship. Athletic performance is a one-to-many identifying relationship with the players entity and a one-to-many non-identifying relationship with coaches.
 
-There are two branches that come from the Hotel table. First, the Dining table represents all of the restaurants in the hotel. This table includes the revenue of the restaurant, the hours they are open, the dress code, and more.
- Restaurants in the Dining table have many reservations made by different guests of the resort, so there is a one to many relationship between the Dining entity and the DiningReservation entity. 
- 
-On the other branch off of the Hotel table, there is the Room table. This simply contains all of the rooms inside each hotel. Because a guest can book many rooms, and rooms can be booked by many guests, we created an associative entity between Room and Guests called RoomReservation.
- The RoomReservation table allows the user to see which guests are in which room, when they check in, when they check out, and other information on the room. 
- 
-There are various activities in the resort as well, and we’ve shown this by including an Activities table. The Activities table shows the price of the activity, its description, and the activity name. Guests may reserve many activities and activities can be reserved by many guests, so because of this we created an ActivityReservation table as the associative entity between Guests and Activity. 
-ActivityReservation contains the activity time, the number of guests, the reservationID, and the guestID of the guest who registered for the activity. 
-The resort offers a kids’ club which has a capacity, a contact email and phone number, and a rating. This is represented by the KidClub entity and its attributes. The kids’ club for the resort services the resort’s multiple hotels; therefore, there is a one-to-many relationship between the KidClub and Hotel entities.
+Athletic performances are recorded for each game played. This is a one-to-many non-identifying relationship. For every sport, there are multiple games for certain seasons and duration. These form a one-to-many non-identifying relationship. For every game, tickets are sold to fans and students for specific prices at specific games. 
 
-Lastly, there is a transportation entity that represents the transportation services associated with the resort. The resort provides shuttles, bikes, buses, and a specialty limo service for guest transportation. The resort has also partnered with Uber and Lyft to offer rides to customers at a discounted rate. This is all reflected in the transportation entity that has a many to one relationship with the Hotel entity because the Hotel has many transporters, but each transporter is mapped to a certain hotel.
+Every sport there are staff members who help in their roles to support the sports teams.This forms a one-to-many non-identifying relationship. Each sport has to have facilities to host these games. The facilities entity keeps a record of location, capacity, and names. Finally, shared facilities is an identified many-to-many relationship between the sports and facilities entity. This records the number of usages of facilities by certain sports and the maintenance status.
+
 
 
 ![6A544222-9A29-45E3-B6C5-6FC7EEDA86ACImage 3-16-25 at 8 39 PM](https://github.com/user-attachments/assets/b036b55f-60bb-449b-add4-dce10d85133a)
