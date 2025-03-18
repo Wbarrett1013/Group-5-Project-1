@@ -93,17 +93,18 @@ Query 7 allows individuals to track team performance by displaying each team's n
 
 Query 8 helps individuals identify the relationship between coaches and the athletes they train by listing each coach's name next to their players' names. If individuals discover that particular coaches typically have more players or work with higher-performing athletes, it may imply disparities in coaching efficiency, training methods, or recruitment techniques that influence player development and team performance.
 
-9. Query 9 lists all the rooms along with their average room view rating if the rating is above a 4 star. Additionally, the query is sorted by the view rating and arranged in descending order.
+9. Query 9 Write a query to list out the head coaches for each sport and the assistant coaches associated with the sport
     
 <img width="1101" alt="Screenshot 2025-03-17 at 9 27 52 PM" src="https://github.com/user-attachments/assets/3e458371-7fc9-4ed4-b5ff-eb2f1c77c1af" />
 
-Query 9 allows the employees and customers to see which rooms have an average view rating of 4 or more. Rooms with extravagant views are huge attractions to customers and can be a deciding factor when picking which room to stay in. This will help employees find which rooms have the best views fast and efficiently when asked.
+Query 9 allows UGA athletics to organize the coaching staff by head coach and assistant coaches and to list who works with who. Doing so can make it manageable to make scheduling and communication easier within practices, games, and meetings. This can also ensure efficient team management to determine who is responsible for coaching the team. Understanding staff structure is helpful for reporting and operational purposes. Identify gaps in staffing will be helpful to recruit new members and even promote assistant coaches to head coaches.
 
-10. Query 10 lists the names and prices of all activities offered by the resort that have not yet been booked by any guests and that are less than or equal to $50. Additionally, the results of the query are ordered by price in ascending order.
+10. Query 10 List out the names of teams where the team name has an S in it
 
 <img width="1097" alt="Screenshot 2025-03-17 at 9 28 16 PM" src="https://github.com/user-attachments/assets/bdcfe8ed-f6c7-4595-9c84-d0aeee826242" />
 
-Query 10 allows the employees and customers to see what activities have not been booked yet, and the prices for these activities. The price is sorted in ascending order to make it easier to find the most affordable activities which most people are looking for. Activities are a huge part of the resort experience and using this script will make it easy for employees to find which activities are available as well as the prices for these activities.
+Query 10 is helpful for UGA athletics to filter specific criteria when in need to find a common characteristic. This can also find teams with similar naming patterns and can help group and identify teams with this filter. Reporting and analyzing teams that fulfill a particular naming pattern can be easily pulled out from data to support these reviews. Categorizing teams and validating data and integrity can be ensured and accurate to define with this query. This query will overall make it easier to retrieve data in a quick manner.
+
 
 ## Database information:
 
