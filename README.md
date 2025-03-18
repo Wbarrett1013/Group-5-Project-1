@@ -43,62 +43,61 @@ Every sport there are staff members who help in their roles to support the sport
 ## Queries:
 
 1. Query 1 lists out the names of all the players, ordered alphabetically
+<img width="1101" alt="Screenshot 2025-03-17 at 9 17 43 PM" src="https://github.com/user-attachments/assets/ed8793cd-12e2-4838-97f5-ffe9402bb208" />
+
+This query provides a way to retrieve all player names in alphabetical order, making it easier for sports analysts, coaches, and staff to locate specific players in an efficient manner. Organizing data in a readable format helps with things like roster management, and team evaluations, and helps retrieve a player's information. This query will also be beneficial for generating reports to ensure consistency in data presentation and will aid in administrative functions related to UGA Athletics.
+
+2. Query 2 lists the names of players whose height and weight are greater than the average height and weight of all players.
+<img width="1098" alt="Screenshot 2025-03-17 at 9 24 03 PM" src="https://github.com/user-attachments/assets/4320392e-e094-4825-aeb5-1c86daa56be6" />
+This query helps identify players who are above average in both height and weight, which can be useful for coaches and sports analysts when assessing physical attributes and the relationship to player performance. This data can also be used to analyze trends in player physique across different sports at UGA, supporting training and recruitment decisions.
 
 
-Query 1 allows allows managers to see which establishments have received the most number of reservations during their busiest time (6-8pm) which is typically dinner time. These establishments likely need more support, resources, and personnel around dinner time. Therefore, this query allows managers to identify which establishments to allocate this extra help to. Listing the results in descending order of number of reservations makes it easier to see which establishment to prioritize.
+3. Query 3 lists the information for all the guests who have not made an activity reservation.
+<img width="1080" alt="Screenshot 2025-03-17 at 9 25 43 PM" src="https://github.com/user-attachments/assets/8cd25c85-5a8a-4bea-9ce1-746a75df5d47" />
 
-2. Query 2 lists the number of dining reservations made by guests on each floor. The results are ordered in ascending order of floor number.
+Query 3 allows the resort to market toward specific customers and contact them (e.g. promotional emails/coupons) about must-try activities. This helps to maximize revenue and increase efficiency by specifically targeting those who are not engaging in activities, rather than wasting time and resources to advertise to those who are already aware of and partaking in these activities.
 
-![Screen Shot 2023-03-31 at 5 50 39 PM](https://user-images.githubusercontent.com/128402101/229239237-725cac35-598a-49e5-9b5d-bfc96fb18714.png)
+4. Query 4 lists the names and phone numbers of dining employees who work in the highest rated dining establishment.
+ <img width="1101" alt="Screenshot 2025-03-17 at 9 26 08 PM" src="https://github.com/user-attachments/assets/bcefea32-60b9-47f7-98b8-6b8cf64ec1ca" />
 
-Query 2 allows managers to see whether there is a trend between what floor a guest stays on and how much they reserve tabes at the resort's dining establishments. If managers were to find that dining reservations decreased as the floor number increased, it would have possibly indicated that guests were not dining at dining establishments because they felt the distance of the dining establishment from their room was too far and inconvenient.
 
-3. Query 3 List the number of tickets sold for each event and the total revenue for that sport. We then list the total revenue in desc order. 
-
-![Screen Shot 2023-03-31 at 5 52 01 PM](https://user-images.githubusercontent.com/128402101/229239403-19acc956-7345-406e-b7ba-a6eaf1c8db88.png)
-
-Query 3 This allows us to see how profitable each sport is as well as how popular the sport is based on ticket sales. Listing the results in desc order allows us to more efficiently examine the data.
-
-4. Query 4 List out the names of teams and the number of players per team. Order by team names alphabetically
-
- 
-![Screen Shot 2023-03-31 at 5 53 30 PM](https://user-images.githubusercontent.com/128402101/229239730-7f5416bd-0aff-4c4a-b64d-7f365f246a36.png)
-
-Query 4 allows us to see how many players are on each team by the actual team name. We order the team names alphabetically to make the results more readable.
+A restaurant with a high star rating is a large source of revenue for the resort and management may want to know the names of the employees who work there and how to contact them to reward them for maintaining such a high achieving restaurant (e.g. via a bonus, raise, awards, recognition) or to know which employees to target for continuous training and supervision in order to keep service within the establishment in top shape.
 
 5. Query 5 lists the guests’ names and the hotel they are checking into if their reservation is during the PM, their room is a single or suite, their check in dates are between 2023-04-01 and 2023-04-10, and their hotel rating is above a 4.
 
-![Screen Shot 2023-03-31 at 5 54 41 PM](https://user-images.githubusercontent.com/128402101/229239947-e3c0ab47-c77c-474b-81c1-1b187548b89c.png)
+<img width="1093" alt="Screenshot 2025-03-17 at 9 26 27 PM" src="https://github.com/user-attachments/assets/60e82a8e-a0ef-4a0f-8b26-08c2c0728e34" />
+
 
 Query 5 allows the resort to manage how busy their check in will be during the PM hours of early April in their better hotels where the check in rooms are singles or suites. This can help the resort determine how many employees need to be working the check in desks to check in single or suite reservations in the afternoon of these dates in these specific hotels.
 
 6. Query 6 lists the names of guests who have over 10 activity reservations and the activities that they have those reservations in.
 
-![Screen Shot 2023-03-31 at 5 55 37 PM](https://user-images.githubusercontent.com/128402101/229240045-10ca60c7-1cb2-49e2-a224-256c841e5fd8.png)
+<img width="1097" alt="Screenshot 2025-03-17 at 9 26 45 PM" src="https://github.com/user-attachments/assets/45948bfb-dcc8-40d3-8032-188243b22890" />
+
 
 Query 6 allows the resort to determine what guests are contributing the most to each activity’s revenue. The resort may use this information to reward guests who spend the most on activities by offering special prizes and promotions, creating guest loyalty and creating an incentive to reserve even more.
 
 7. Query 7 lists the the amount of dining reservations per guest and the average amount of guests these reservations have.
-
-![Screen Shot 2023-03-31 at 5 56 06 PM](https://user-images.githubusercontent.com/128402101/229240108-152740f1-4c85-4a38-9194-c981cf33fc42.png)
+   
+<img width="1099" alt="Screenshot 2025-03-17 at 9 27 01 PM" src="https://github.com/user-attachments/assets/2ef2c8ee-c4b2-462d-b239-e8ffcd687088" />
 
 Query 7 allows the resort to see how many guests they should plan to seat, how the tables should be set up, and can lead to the resort figuring out how much revenue should be expected for the average visit.
 
 8. Query 8 lists the guestID, guest name, and the number of room reservations per guest.
-
-![Screen Shot 2023-03-31 at 6 34 05 PM](https://user-images.githubusercontent.com/128402101/229244470-c29f68b3-f837-4a18-97bb-f86345b84431.png)
+   
+<img width="1093" alt="Screenshot 2025-03-17 at 9 27 27 PM" src="https://github.com/user-attachments/assets/0b98f1f3-90d1-4f97-9493-717e061e396b" />
 
 Query 8 allows the resort to identify their frequent customers and how many times they have stayed. This could lead to a card system down the line. If a guest reaches 5 or 10 visits, there could be a platinum card which would gift the user reservation priority, food discounts, and other perks.
 
 9. Query 9 lists all the rooms along with their average room view rating if the rating is above a 4 star. Additionally, the query is sorted by the view rating and arranged in descending order.
-
-![Screen Shot 2023-03-31 at 5 56 31 PM](https://user-images.githubusercontent.com/128402101/229240166-bb0bc849-08dd-4521-8608-7a85ff53ae46.png)
+    
+<img width="1101" alt="Screenshot 2025-03-17 at 9 27 52 PM" src="https://github.com/user-attachments/assets/3e458371-7fc9-4ed4-b5ff-eb2f1c77c1af" />
 
 Query 9 allows the employees and customers to see which rooms have an average view rating of 4 or more. Rooms with extravagant views are huge attractions to customers and can be a deciding factor when picking which room to stay in. This will help employees find which rooms have the best views fast and efficiently when asked.
 
 10. Query 10 lists the names and prices of all activities offered by the resort that have not yet been booked by any guests and that are less than or equal to $50. Additionally, the results of the query are ordered by price in ascending order.
 
-![Screen Shot 2023-03-31 at 5 57 00 PM](https://user-images.githubusercontent.com/128402101/229240218-c01fb32b-5f71-4562-b014-b656bfe051bb.png)
+<img width="1097" alt="Screenshot 2025-03-17 at 9 28 16 PM" src="https://github.com/user-attachments/assets/bdcfe8ed-f6c7-4595-9c84-d0aeee826242" />
 
 Query 10 allows the employees and customers to see what activities have not been booked yet, and the prices for these activities. The price is sorted in ascending order to make it easier to find the most affordable activities which most people are looking for. Activities are a huge part of the resort experience and using this script will make it easy for employees to find which activities are available as well as the prices for these activities.
 
