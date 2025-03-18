@@ -14,14 +14,11 @@ The problem we chose to address involves designing and constructing a relational
 
 Explanation of data model: 
 
-This data model is based on the structure of UGA’s sports teams. The sports entity is representative of the UGA athletic aspects within each sport. Within each sport, there are teams that classify as a one-to-many non-identifying relationship. Each team has a donor, making this a one-to-many non-identifying relationship. Every sports team has coaches to guide and train the team to play to the best of their ability. This relationship is one-to-many and non-identifying. The entity coaches is a one-to-one non-identifying relationship itself. 
+Our data model represents the structure of UGA’s sports teams and their key components. The Sports entity serves as the foundation, capturing information about each sport's season and duration. Within each sport, multiple teams exist, creating a one-to-many relationship between Sports and Teams Each team is associated with a Donor, who provides financial support, and a Coach, who is responsible for training and managing players.  
 
-Each team includes many players who can play for one or multiple teams. That identifies as a one-to-many non-identifying relationship. Sports need players to be eligible for competition and games to play. This creates a one-to-many non-identifying relationship. Athletic performance is a one-to-many identifying relationship with the players entity and a one-to-many non-identifying relationship with coaches.
+Teams are composed of multiple Players, who may participate in more than one team. Player performance is tracked through the Athlete Performance entity, which records individual statistics for each game. The Games entity stores details such as opponents, dates, locations, and results. Since multiple tickets are sold for each game, the Tickets entity tracks ticket prices and types.  
 
-Athletic performances are recorded for each game played. This is a one-to-many non-identifying relationship. For every sport, there are multiple games for certain seasons and duration. These form a one-to-many non-identifying relationship. For every game, tickets are sold to fans and students for specific prices at specific games. 
-
-Every sport there are staff members who help in their roles to support the sports teams. This forms a one-to-many non-identifying relationship. Each sport has to have facilities to host these games. The facilities entity keeps a record of location, capacity, and names. Finally, shared facilities is an identified many-to-many relationship between the sports and facilities entity. This records the number of usages of facilities by certain sports and the maintenance status.
-
+Beyond teams and games, Staff members contribute to the operations of each sport, ensuring smooth coordination. Facilities are essential for hosting games and training sessions, and the Facilities entity keeps records of locations and capacities. The Shared Facilities entity manages the allocation of venues, forming a many-to-many relationship with sports to track usage and maintenance.
 
 
 ![6A544222-9A29-45E3-B6C5-6FC7EEDA86ACImage 3-16-25 at 8 39 PM](https://github.com/user-attachments/assets/b036b55f-60bb-449b-add4-dce10d85133a)
