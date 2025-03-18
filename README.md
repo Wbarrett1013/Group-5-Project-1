@@ -52,16 +52,18 @@ This query provides a way to retrieve all player names in alphabetical order, ma
 This query helps identify players who are above average in both height and weight, which can be useful for coaches and sports analysts when assessing physical attributes and the relationship to player performance. This data can also be used to analyze trends in player physique across different sports at UGA, supporting training and recruitment decisions.
 
 
-3. Query 3 lists the information for all the guests who have not made an activity reservation.
+3. Query 3 List the number of tickets sold for each event and the total revenue for that sport. We then list the total revenue in desc order.
+
 <img width="1080" alt="Screenshot 2025-03-17 at 9 25 43 PM" src="https://github.com/user-attachments/assets/8cd25c85-5a8a-4bea-9ce1-746a75df5d47" />
 
-Query 3 allows the resort to market toward specific customers and contact them (e.g. promotional emails/coupons) about must-try activities. This helps to maximize revenue and increase efficiency by specifically targeting those who are not engaging in activities, rather than wasting time and resources to advertise to those who are already aware of and partaking in these activities.
+Query 3 This allows us to see how profitable each sport is as well as how popular the sport is based on ticket sales. Listing the results in desc order allows us to more efficiently examine the data.
 
-4. Query 4 lists the names and phone numbers of dining employees who work in the highest rated dining establishment.
+
+4. Query 4 List out the names of teams and the number of players per team. Order by team names alphabetically
+
  <img width="1101" alt="Screenshot 2025-03-17 at 9 26 08 PM" src="https://github.com/user-attachments/assets/bcefea32-60b9-47f7-98b8-6b8cf64ec1ca" />
 
-
-A restaurant with a high star rating is a large source of revenue for the resort and management may want to know the names of the employees who work there and how to contact them to reward them for maintaining such a high achieving restaurant (e.g. via a bonus, raise, awards, recognition) or to know which employees to target for continuous training and supervision in order to keep service within the establishment in top shape.
+Query 4 allows us to see how many players are on each team by the actual team name. We order the team names alphabetically to make the results more readable.
 
 5. Query 5 lists the guests’ names and the hotel they are checking into if their reservation is during the PM, their room is a single or suite, their check in dates are between 2023-04-01 and 2023-04-10, and their hotel rating is above a 4.
 
