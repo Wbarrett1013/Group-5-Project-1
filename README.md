@@ -79,17 +79,19 @@ Query 5 allows for the University of Georgia Athletics to filter out some of the
 
 Query 6 allows for UGA Athletics to see the sports and teams that are receiving an above average amount of donations to said sport / team.  UGA can use this information to make decisions on where to invest money into each sport and team based on how much a team is receiving and either further invest or decide to invest into another sport to insure that each sport is being treated fairly. 
 
-7. Query 7 lists the the amount of dining reservations per guest and the average amount of guests these reservations have.
+7. Query 7 lists out the team’s name, opponent, date, and location where the result of the game was a win.
    
-<img width="1099" alt="Screenshot 2025-03-17 at 9 27 01 PM" src="https://github.com/user-attachments/assets/2ef2c8ee-c4b2-462d-b239-e8ffcd687088" />
+![022F1F98-369E-47AF-A521-C86135CAFA3F](https://github.com/user-attachments/assets/c59afe1b-27d7-4673-93bf-dd27376c7158)
 
-Query 7 allows the resort to see how many guests they should plan to seat, how the tables should be set up, and can lead to the resort figuring out how much revenue should be expected for the average visit.
 
-8. Query 8 lists the guestID, guest name, and the number of room reservations per guest.
+Query 7 allows individuals to track team performance by displaying each team's name, opponent, game date, and location for games that resulted in a win. If people discover that a team wins more often at home than away, it may indicate a home-field advantage, implying that variables such as fan support, familiarity with the facility, or less travel fatigue contribute to improved performance.
+
+8. Query 8 lists out the names of coaches and the names of players they coach.
    
-<img width="1093" alt="Screenshot 2025-03-17 at 9 27 27 PM" src="https://github.com/user-attachments/assets/0b98f1f3-90d1-4f97-9493-717e061e396b" />
+![3434D765-3EAB-4A53-B7E0-DAD8BF183FC3](https://github.com/user-attachments/assets/165e0493-0c82-4f54-bf21-2aa58258e09c)
 
-Query 8 allows the resort to identify their frequent customers and how many times they have stayed. This could lead to a card system down the line. If a guest reaches 5 or 10 visits, there could be a platinum card which would gift the user reservation priority, food discounts, and other perks.
+
+Query 8 helps individuals identify the relationship between coaches and the athletes they train by listing each coach's name next to their players' names. If individuals discover that particular coaches typically have more players or work with higher-performing athletes, it may imply disparities in coaching efficiency, training methods, or recruitment techniques that influence player development and team performance.
 
 9. Query 9 lists all the rooms along with their average room view rating if the rating is above a 4 star. Additionally, the query is sorted by the view rating and arranged in descending order.
     
