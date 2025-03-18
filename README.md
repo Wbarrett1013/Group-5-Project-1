@@ -14,11 +14,17 @@ The problem we chose to address involves designing and constructing a relational
 
 Explanation of data model: 
 
-Our data model represents the structure of UGA’s sports teams and their key components. The Sports entity serves as the foundation, capturing information about each sport's season and duration. Within each sport, multiple teams exist, creating a one-to-many relationship between Sports and Teams Each team is associated with a Donor, who provides financial support, and a Coach, who is responsible for training and managing players.  
+Our data model represents the structure of UGA’s sports teams and their key components, detailing relationships between sports, teams, players, games, and supporting entities.  
 
-Teams are composed of multiple Players, who may participate in more than one team. Player performance is tracked through the Athlete Performance entity, which records individual statistics for each game. The Games entity stores details such as opponents, dates, locations, and results. Since multiple tickets are sold for each game, the Tickets entity tracks ticket prices and types.  
+The Sports entity serves as the foundation, capturing details such as the sport's name, season, and duration. Each sport can have multiple teams, establishing a one-to-many relationship between Sports and Teams. The Teams entity includes attributes like team name and associated sport, and each team is linked to a coach, who is responsible for guiding players and overseeing performance. Coaches have attributes such as name, salary, contact information, and a reporting structure to track their supervision. Additionally, teams have donor, represented in the Donor entity, which records donor names and contributions.  
 
-Beyond teams and games, Staff members contribute to the operations of each sport, ensuring smooth coordination. Facilities are essential for hosting games and training sessions, and the Facilities entity keeps records of locations and capacities. The Shared Facilities entity manages the allocation of venues, forming a many-to-many relationship with sports to track usage and maintenance.
+Each team consists of multiple players and the Players entity holds attributes such as name, class year, player number, height, weight, gender, and date of birth. Players can participate in multiple teams, forming a one-to-many relationship. To monitor individual contributions, the Athlete Performance entity tracks player statistics, including points earned in each game.  
+
+The Games entity documents match details such as the opponent, date, location, and final score. Since multiple tickets are sold for each game, the Tickets entity records ticket price, type, and the number of tickets collected. Games also link back to the sport they belong to, ensuring a structured view of competition data.  
+
+Supporting roles are managed through the Staff entity, which records staff names and roles within each sport. Each sport also requires Facilities to host games and practices, with attributes such as facility name, location, and capacity stored in the Facilities entity. Since facilities may be shared across multiple sports, the **Shared Facilities** entity forms a many-to-many relationship, tracking usage type and maintenance status.  
+
+This model ensures that all key components of UGA’s athletic structure are interconnected, providing a comprehensive view of sports management, team organization, player performance, and event logistics.
 
 
 ![6A544222-9A29-45E3-B6C5-6FC7EEDA86ACImage 3-16-25 at 8 39 PM](https://github.com/user-attachments/assets/b036b55f-60bb-449b-add4-dce10d85133a)
