@@ -26,6 +26,8 @@ Every sport there are staff members who help in their roles to support the sport
 
 ![6A544222-9A29-45E3-B6C5-6FC7EEDA86ACImage 3-16-25 at 8 39 PM](https://github.com/user-attachments/assets/b036b55f-60bb-449b-add4-dce10d85133a)
 
+<img width="590" alt="Screenshot 2025-03-17 at 9 44 14 PM" src="https://github.com/user-attachments/assets/9b7ef990-bc86-4fdc-a4fd-359a8aa83765" />
+
 
 ## Data Dictionary:
 <img width="695" alt="Screenshot 2025-03-17 at 8 50 46 PM" src="https://github.com/user-attachments/assets/d1a8be17-d500-41c9-8013-e6e924767f3a" />
